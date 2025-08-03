@@ -1,0 +1,63 @@
+@import "tailwindcss";
+
+:root {
+  --theme-light-color: #4dabf7;
+  --theme-dark-color: #bb86fc;
+  --theme-colorful-color: #e97074;
+  --background-dark-color: #121212;
+  --sidebar-dark-color: #1e1e1e;
+  --product-dark-color: #1f2937;
+}
+
+@theme {
+  --breakpoint-smx: 640px;
+}
+
+.pacifico-regular {
+  font-family: "Pacifico";
+  font-weight: 400;
+  font-style: normal;
+}
+
+.font-sans-normal {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.font-sans-bold {
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* hide scrollbar for all elements */
+::-webkit-scrollbar {
+  display: none;
+}
+
+body {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;     /* Firefox */
+}
+
+
+
+/* Optional animation class */
+@keyframes fadeUpBorder {
+  0% {
+    translate: 0px;
+  }
+  100% {
+    translate: 5px;
+  }
+}
+
+.fade-up-border {
+  animation: fadeUpBorder 0.3s ease-in forwards;
+}
+
