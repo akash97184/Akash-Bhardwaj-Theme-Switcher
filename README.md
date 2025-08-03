@@ -2,6 +2,7 @@
 
 A sleek and simple React (Vite) application that lets users instantly switch between **Light**, **Dark**, and **Colorful** themes.
 
+🔗 Live Demo: https://akash-bhardwaj-theme-switcher.vercel.app/
 ---
 
 ## ✨ Features
