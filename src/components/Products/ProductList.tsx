@@ -18,7 +18,7 @@ const ProductList = ({ products, isLoading, isError }: Props) => {
       : "flex flex-wrap gap-6";
 
   return (
-    <div>
+    <div className="w-full px-1">
       <h2 className="text-center text-xl md:text-2xl font-bold mb-6">
         ✨ Check Out These Amazing Products! 🛍️
       </h2>
