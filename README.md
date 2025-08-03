@@ -43,7 +43,7 @@ A sleek and simple React (Vite) application that lets users instantly switch bet
 
 ### 1. Clone the repo
 
-# Clone the repository
+## Clone the repository
 git clone <repo-url>
 
 cd theme-switcher
