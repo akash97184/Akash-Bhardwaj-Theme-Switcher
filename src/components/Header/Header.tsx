@@ -1,7 +1,6 @@
 import { useSelector } from "react-redux";
 import { Link, useLocation } from "react-router-dom";
 import { BsStack } from "react-icons/bs";
-import { navLinks } from "@/lib/constants";
 import { cn } from "@/lib/utils";
 import type { RootState } from "@/store";
 import ThemeSwitcher from "../ThemeSwitcher/ThemeSwitcher";
@@ -11,6 +10,7 @@ import { HiMenu, HiX } from "react-icons/hi";
 import type { Theme } from "@/lib/types";
 import { MdOutlineLocalGroceryStore } from "react-icons/md";
 import useOutsideClick from "@/hooks/useOutsideClick";
+import { navLinks } from "@/lib/constants";
 
 const getThemeStyles = (theme: Theme) => {
   const isDark = theme === "dark";
@@ -52,7 +52,7 @@ const Header = () => {
   const { initialTheme: currentTheme, itemCount } = useSelector(
     (state: RootState) => state.theme
   );
-  const menuDropDownRef = useRef<HTMLElement>(null);
+  const menuDropDownRef = useRef<HTMLDivElement>(null);
   const [isMenuOpen, setIsMenuOpen] = useState<boolean>(false);
   const { pathname } = useLocation();
 
