@@ -42,7 +42,7 @@ A sleek and simple React (Vite) application that lets users instantly switch bet
 
 ### 1. Clone the repo
 
-git clone <repo-url>
+git clone [<repo-url>](https://github.com/akash97184/Akash-Bhardwaj-Theme-Switcher.git)
 cd theme-switcher
 
 ### 2. Install dependencies
